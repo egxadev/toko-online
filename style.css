@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 250px 0 50px 0;
+  color: white;
+  font-family: 'poppins', sans-serif;
+  background: linear-gradient(135deg, rgba(124, 18, 62, 0.9) 0%, rgba(160, 27, 78, 0.8)100%), url("img/kit.jpg") center no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 65px;
+}
+
+.top-wrapper h2 {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper h3 {
+  font-family: 'Aldrich', sans-serif;
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+  color: white;
+  margin-top: 10px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.category-wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 80px;
+  color: #5f5d60;
+}
+
+.heading h1 {
+  font-family: 'Aldrich', sans-serif;
+}
+
+.heading h3 {
+  font-family: 'Aldrich', sans-serif;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0px;
+  text-align: center;
+}
+
+li {
+  color: white;
+}
+
+
+.categories {
+  display: flex;
+  min-height: 300px;
+}
+
+.categories li {
+  flex: auto;
+}
+
+.categories .category {
+  cursor: pointer;
+}
+
+li .category {
+  margin: 20px;
+  height: 300px;
+  position: relative;
+  justify-content:center;
+  opacity: 1;
+}
+
+li .category:hover {
+  opacity: 0.7;
+}
+
+li .category h5 {
+  padding-top: 200px;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 20px;
+}
+
+li .category p {
+  padding: 0 10px 0 10px;
+  font-size: 12px;
+}
+
+li .mens {
+  background: linear-gradient(135deg, rgba(124, 18, 62, 0.9) 0%, rgba(160, 27, 78, 0.8)100%), url("img/Men.jpg") center no-repeat;
+  background-size: cover;
+}
+
+li .womens {
+  background: linear-gradient(135deg, rgba(124, 18, 62, 0.9) 0%, rgba(160, 27, 78, 0.8)100%), url("img/women.jpg") center no-repeat;
+  background-size: cover;
+}
+
+li .kids {
+  background: linear-gradient(135deg, rgba(124, 18, 62, 0.9) 0%, rgba(160, 27, 78, 0.8)100%), url("img/kids.jpg") center no-repeat;
+  background-size: cover;
+}
+
+li .sneakers {
+  background: linear-gradient(135deg, rgba(124, 18, 62, 0.9) 0%, rgba(160, 27, 78, 0.8)100%), url("img/sneakerss.jpg") center no-repeat;
+  background-size: cover;
+}
+
+
+
+.message-wrapper h3 {
+  padding-bottom: 15px;
+}
+
+
+.card-item {
+  display: flex;
+  margin-bottom: 50px;
+}
+.card-item li {
+  flex: auto;
+}
+
+.card-item .card-header {
+  opacity: 1;
+}
+
+.card-item .card-header:hover {
+  opacity: 0.7;
+}
+
+li .card {
+  margin: 10px;
+  height: 240px;
+  position: relative;
+  justify-content:center;
+  border: 1px solid #999;
+  border-radius: 10px;
+  background-color: #eee;
+  overflow: hidden;
+  color: black;
+}
+
+.card .card-header {
+  height: 20vh;
+  background: linear-gradient(135deg, rgba(124, 18, 62, 0.9) 0%, rgba(160, 27, 78, 0.8)100%), url("img/kit.jpg") center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.card .discount {
+  text-align: center;
+}
+.card .discount p {
+  padding: 5px 0;
+}
+
+.btn {
+  color: white;
+  border-radius: 5px;
+  padding: 5px 5px;
+  background-color: rgba(187, 27, 94, 0.9);
+  cursor: pointer;
+  box-shadow: 0 5px rgba(124, 18, 62, 0.9);
+}
+
+.btn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer .greetings {
+  width: 100%;
+  background: linear-gradient(135deg, rgba(228, 228, 228, 0.9) 0%, rgba(160, 27, 78, 0.8)100%),
+      url("img/hero.jpg") center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 50px 5px;
+}
+
+footer .greetings h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 55px;
+  color: white;
+}
+
+footer .greetings h3 {
+  padding-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+
+footer .copyright h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 10px;
+  color: white;
+  background-color: #333;
+}
