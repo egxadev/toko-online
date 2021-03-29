@@ -154,7 +154,7 @@ li .category p {
 }
 
 li .mens {
-  background: linear-gradient(135deg, rgba(124, 18, 62, 0.9) 0%, rgba(160, 27, 78, 0.8)100%), url("img/Men.jpg") center no-repeat;
+  background: linear-gradient(135deg, rgba(124, 18, 62, 0.9) 0%, rgba(160, 27, 78, 0.8)100%), url("img/men.jpg") center no-repeat;
   background-size: cover;
 }
 
